@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 public class Travel {
+	//this.is change
 	@Id
 	@SequenceGenerator(sequenceName = "sq1",initialValue = 1, allocationSize =5, name = "ab")
 	@GeneratedValue(generator="ab",strategy = GenerationType.SEQUENCE)
